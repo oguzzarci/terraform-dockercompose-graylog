@@ -12,13 +12,16 @@ Quick and easy setup for your test environment.
 
 ---
 ## Outputs
+
 <img src="./images/3.png" width="400" height="200">
+
 ---
+
 ## Screenshots
-<img src="./images/2.png" width="400" height="300">
+<img src="./images/2.png">
 <br>
 <br>
-<img src="./images/1.png" width="700" height="300">
+<img src="./images/1.png">
 <br>
 <br>
-<img src="./images/4.png" width="700" height="300">
+<img src="./images/4.png">
