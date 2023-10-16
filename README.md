@@ -1,4 +1,4 @@
-<img src="./images/terraform.png" width="200" height="200"><img src="./images/aws.png" width="200" height="200"><img src="./images/dockercompose.jpeg" width="200" height="200"><img src="./images/graylog.jpeg" width="200" height="200">
+<img src="./images/terraform.png" max-height="200"><img src="./images/aws.png" max-height="200"><img src="./images/dockercompose.jpeg"  max-height="200"><img src="./images/graylog.jpeg" max-height="200">
 
 # Setting up Graylog on an AWS EC2 instance using Terraform and Docker Compose
 
