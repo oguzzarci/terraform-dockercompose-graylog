@@ -18,7 +18,7 @@ Quick and easy setup for your test environment.
 ---
 
 ## Screenshots
-<img src="./images/2.png" max-width=100%;>
+<img src="./images/2.png" max-width=100%; max-height=100%;>
 <br>
 <br>
 <img src="./images/1.png" max-width=100%;>
