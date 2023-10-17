@@ -4,6 +4,14 @@ resource "random_password" "graylog_password"{
   override_special = "_!%^"
 }
 
+resource "aws_secretsmanager_secret" "graylog_password" {
+  name = "graylog_password"
+}
+
+resource "aws_secretsmanager_secret_version" "graylog_password" {
+  secret_id = aws_secretsmanager_secret.graylog_password.id
+  secret_string = random_password.graylog_password.result
+}
 
 resource "aws_instance" "graylog_instance" {
   depends_on                  = [local_file.keyfile]
