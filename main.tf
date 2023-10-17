@@ -1,3 +1,9 @@
+resource "random_password" "graylog_password"{
+  length           = 16
+  special          = true
+  override_special = "_!%^"
+}
+
 
 resource "aws_instance" "graylog_instance" {
   depends_on                  = [local_file.keyfile]
