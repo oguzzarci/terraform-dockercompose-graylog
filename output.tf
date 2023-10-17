@@ -5,3 +5,8 @@ output "ssh_gralog_instance" {
 output "gralog_ui" {
   value = "http://${aws_instance.graylog_instance.public_ip}"
 }
+
+output "graylog_password" {
+  value = nonsensitive(aws_secretsmanager_secret_version.graylog_password.secret_string)
+
+}

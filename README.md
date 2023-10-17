@@ -25,3 +25,12 @@ Quick and easy setup for your test environment.
 <br>
 <br>
 <img src="./images/4.png" max-width=100%; max-height=100%;>
+
+### Notes
+graylog_password force delete
+```
+aws secretsmanager delete-secret \     
+--secret-id graylog_password \
+--force-delete-without-recovery
+
+```

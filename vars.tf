@@ -20,7 +20,7 @@ variable "instance_type" {
 
 
 variable "up_script" {
-  type = string
+  type    = string
   default = <<EOF
 #!/bin/bash
 sudo apt update -y
